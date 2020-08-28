@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+
+        <div class="geschlecht">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+                <div class="col-md-1">
+                    <!-- Text (Beschreibung) -->
+                    <p class="anrede">Anrede:</p>
+                </div>
+                <div class="col-md-1">
+                    <!-- Herr -->
+                    <div class="herr">
+                        <input type="radio" name="geschlecht" id="herr">
+                        <label for="herr">Herr</label> 
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <!-- 2 Platzhalter -->
+                </div>
+                <div class="dol-md-1">
+                    <!-- Frau  -->
+                    <div class="frau">
+                        <input type="radio" name="geschlecht" id="frau">
+                        <label for="frau">Frau</label>
+                    </div>
+                </div>
+                <div class="col-md-1">
+                    <!-- 1 Platzhalter -->
+                </div>
+                <div class="col-md-3">
+                    <!-- 3 Leere -->
+                </div>
+            </div>    
+        </div>
+
+        <div class="vorname">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+
+                <div class="col-md-1">
+                    <p class="vorname-p"><label for="vorname">Vorname:</label></p>
+                </div>
+
+                <div class="col-md-5">
+                    <!-- eingabefeld -->
+                    <input type="text" name="vorname" id="vorname" placeholder="Max" autocomplete="given-name">
+                </div>
+
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+            </div>
+        </div>
+
+        <div class="name">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+
+                <div class="col-md-1">
+                    <p class="name-p"><label for="name">Name:</label></p>
+                </div>
+                <div class="col-md-5">
+                    <input type="text" name="name" id="name" placeholder="Muster" autocomplete="family-name">
+                </div>
+
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+            </div>
+        </div>
+
+        <div class="datum">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+
+                <div class="col-md-1">
+                    <p class="datum-p"><label for="datum">Datum:</label></p>
+                </div>
+                    
+                <div class="col-md-5">
+                    <input type="date" name="datum" id="datum">
+                </div>
+
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+            </div>
+        </div>
+
+        <div class="strasse">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+
+                <div class="col-md-1">
+                    <p class="strasse-p"><label for="strasse">Strasse:</label></p>
+                </div>
+
+                <div class="col-md-5">
+                    <input type="text" name="strasse" id="strasse" placeholder="Musterstrasse 12">
+                </div>
+
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+            </div>
+        </div>
+        
+        <div class="plz-ort">
+            <div class="row">
+                <div class="col-md-3">
+                    <!-- 3 leere Spalten -->
+                </div>
+
+                <div class="col-md-1">
+                    <p class="plz-p"><label for="plz">PLZ:</label></p>
+                </div>
+
+                <div class="col-md-1">
+                    <input type="text" name="plz" id="plz" placeholder="8001">
+                </div>
+
+                <div class="col-md-2">
+                    <p class="ort"><label for="ort">Ort:</label>
+                </div>
+
+                <div class="col-md-1">
+                    <input type="text" name="Ort" id="ort" placeholder="Zurich">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4 col-sm-6"></div>
+            <div class="col-md-4 col-sm-6"></div>
+            <div class="col-md-4 col-sm-6"></div>
+        </div>
+    </div>
+
+    <!-- jQuery  -->
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
